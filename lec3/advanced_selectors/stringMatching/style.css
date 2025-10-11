@@ -1,0 +1,9 @@
+/* a[href="https://www.goole.com"]{
+    color: green;
+} */
+a[href ^= "https"]{
+    color: green;
+}
+a[href $= "com"]{
+    color: aqua;
+}

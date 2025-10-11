@@ -1,0 +1,25 @@
+div::first-letter{
+    font-size: 50px;
+    color: orange;
+}
+div::first-line{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* first line m change krne se sirf first line change hogi view port change hone se koi fark nhi pdega. sirf jo pehli line hogi view port m usi m change hoga  */
+span::first-letter{
+    font-size: 100px;
+} 
+/* span wale m koi change nhi aaega q ki vo inline elements h  */
+a[href="https://www.google.com"]::first-letter{
+    color: red;
+}
+/* ye nhi chlegi q ki hum uss element k upar laana chah rhe hain jo ki ek inline element h. */
+a[href="https://www.google.com"]::after{
+    content: "hi i am your after pseudo element";
+}
+/* ye chl jaayega q ki hum usme koi change nhi laa rhe bss content add kr rhe hain */
+
+/* hum unicode ka use kr skte hain to add icon usiing css , first we use escape character in html like &gt */
+a[href="https://www.google.com"]::after{
+    content:'\1F32E';
+}

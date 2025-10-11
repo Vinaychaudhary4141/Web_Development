@@ -1,0 +1,63 @@
+selectors are of two types : basic and advanced.
+
+in basic selectors we have 5 selectors:element , id , class , attribute and universal selectors.
+
+---element selectors:
+ mein hum kisi particular element pr css lgate hain like p{}, div{}.
+
+---id selectors:
+ jab humare pass multiple element hain but hum sb pr css nhi lgane chahte sirf kisi particular pr css lgane chahte hain then we will use id selectors by giving a id to a tag.
+it is represented by #.
+this id has to be unique and be aware it's a good habit of a good developer of not assigning the same id to a different tag.
+****** never use same id.
+
+----class selectors:
+ jab 1 change ko more than one place display krna ho tab we use class selectors.
+hum 1 se jyada baar class assign kr skte hain ethically.
+
+-----Attribute selectors:
+isme attribute ki help se css lgate hain like href is our attribute to uski help se lgayenge css.
+
+----Universal selector:
+har cheez ko select kro irrespective of anything.
+--------------------------------------------------------------------------
+Universal selector are of 4 types:
+1. combinators:
+   i) Descendant
+   ii) child
+   iii) adjacent sibling
+   iv) General sibling
+
+2. pseudo classes
+3. structural pseudo elements.
+4. String Matching 
+
+****----Combinator:do cheez se milke bna h.
+
+----descendant:iss case m hum kitne b level neeche jaake check kr skte hain.
+
+-----Child: isme just neeche wali level ko check krte hain kya vo defined syntax se match kr rhi h ya nhi.
+represented as: div>p{}
+
+----adjacent sibling: jinka parent same ho unhe adjacent sibling kehte hain.
+
+---General sibling: jo sibling same level pr hote hain unhe general sibling kehte hain .
+inke parent common hona jruri nhi h , parents  sibling hone chahiye.
+###always sibling right side m dekhe jaate hain
+
+****pseudo classes:
+some are- :hover, :visited , :active, :focus.
+---:hover-cursor ko upar laao to change ho.
+---:active- jab b hum click krenge tb kya change aayega.
+----:visited- ye btata h ki tum yahan tum visit kr chuke ho ya nhi.
+----:focus-
+---------------------------------------------------------------------------------------
+
+***pseudo elements***
+pseudo classes m : ye lgate hain aur elements m  :: 
+psuedo classes inline/block pr lga skte hain but elements m sirf blovk kaam krega.
+-------------------------------------------------------------------------------------------
+****STRING MATCHING****
+1. starts with ^=
+2. ends with $=
+3 present anywhere *=

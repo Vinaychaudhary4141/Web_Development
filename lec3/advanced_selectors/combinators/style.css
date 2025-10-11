@@ -1,0 +1,28 @@
+/* combinator--->descendant selector
+section div {
+    color:aqua
+}
+  */
+
+  /* CHILD
+  section>div>p{
+    color: blue;
+  } */
+
+  /* ADJACENT SIBLING */
+/* article + section{
+    background-color: rgb(255, 251, 0);
+}
+  /* isme adjacent dekhta h means pehle likha h vo pehle define kiya gya hoga and jo + k baad likha h vo html m pehle wale  k baad define kiya gya hoga */
+section + article{
+    background-color: red;
+}
+section + section{
+    background-color: brown;
+} ye nhi chlega */
+
+/* GENERAL SIBLING */
+section~article{
+    background-color: aliceblue;
+}
+/* code ka flow : top to bottom */

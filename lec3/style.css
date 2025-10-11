@@ -1,0 +1,11 @@
+li{
+    background-color: brown;
+}
+div{
+    border: 3px dotted; 
+       /* div humne section m b define kiya tha aur article m b, lekin jab b hum div pr css lgayenge to vo jahan b html m div encountered hoga vahan css lgegi.
+        */
+}
+p{
+    font-size: 50px;
+}

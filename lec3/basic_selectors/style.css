@@ -1,0 +1,39 @@
+/* element selector
+
+/* div{
+    border: 3px solid rgb(236,37,37, green, blue);
+}
+p{
+    font-size: 25px;
+} */
+
+
+/* ID selector */
+/* #vinay{
+    background-color: bisque;
+} */
+
+/* Class selector */
+/* .meri{
+    background-color: aqua;
+} */
+
+/* Attribute selector */
+/* a[href='http://google.com']{
+    font-size: 20px;
+    color:peru;
+}
+input[type="text"]{
+    border: 3px dashed orchid;
+}
+input[disabled]{
+    font-size:50px;
+} */
+
+
+/* Universal selector */
+ 
+*{
+    border: 1px solid goldenrod;
+    /* ye pure web page ko style krdega including the html tag  */
+}

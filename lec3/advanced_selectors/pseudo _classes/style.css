@@ -1,0 +1,29 @@
+/* hover */
+/* h1{
+    background-color: green;
+}
+h1:hover{
+    background-color: blue;
+} */
+
+
+ /* :active */
+/* a[href="http://www.google.com"]:active{
+    color: red;
+} */
+
+/* visited */
+/* a[href="http://www.wikipedia.com"]:visited{
+    color: red;
+} */
+
+/* focus */
+input{
+    background-color: brown;
+}
+input:hover{
+    background-color: antiquewhite;
+}
+input:focus{
+    background-color: chartreuse;
+} 
