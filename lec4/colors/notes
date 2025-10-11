@@ -1,0 +1,12 @@
+ways to give colours--
+----3 ways-----
+1. hexadecimal
+2.rgb
+3. rgba 
+
+HEXADECIMAL ---> start with # . jis colour ko jyada amount m denge uss colour(RGB) ki trf tend krega hmara colour.
+                2 digit se particular color represent kiya jaata h . if we add two more digit in the last then it will represent the alpha channel , iski range vhi 00 se ff tk.
+RGB -----> 0-255 tk ki range hoti h.
+RGBa----> a stands for alpha channel that tells us about the opacity . range from 0-1.
+alpha ki value jitni kam utni opacity jyada hoti h.
+alpha ki value jyada , hmara colour utna hi jyada dikhegi.

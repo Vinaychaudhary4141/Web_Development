@@ -1,0 +1,27 @@
+#sam{
+    color: red;
+}
+.sammy{
+    color: green;
+}
+/* id ka bhaukal jyada hota h class se */
+
+div{
+    color: orange;
+}
+/* div element selector h  */
+/* inline > id > class > element ka baukal(specificity) */
+ /* inline > internal > external */
+ 
+
+/* Inheritance */
+ ol{
+    font-size: 50px;
+    color: cyan;
+ }
+ol>li{
+    color: red;
+    font-size: 100px;
+}
+/* color,fontsize, bordered ye inherit ho jaate hain kuch properties inherit nhi hoti hain(take reference from MDN) */
+
