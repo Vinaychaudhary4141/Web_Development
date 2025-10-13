@@ -1,0 +1,24 @@
+/* display inline-block */
+/* h3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(160, 230, 160);
+    display: inline-block;
+}
+span{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(160, 230, 160);
+    display: inline-block;
+} */
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+div:nth-of-type(2){
+    /* display: none; */
+    visibility: hidden; 
+}
+/* display none dene se vo element ko jo jagah di gayi thi vo vaapis le li jaayegi and the element will not be seen on the screen(invisible)  */
+/* visibility : hidden wale case m spac(jagah) to occupy krega but blank dikhayi dega(invisible)  */

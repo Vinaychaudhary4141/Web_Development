@@ -1,0 +1,11 @@
+#abs{
+    font-weight: 900px;
+}
+/* relative units */
+/* 1. %percentage */
+.a1{
+    font-size: 50%;
+}
+/* parent ka 50% ho jaayega , parent hai iss case m article ka body. */
+
+/* 2. em */

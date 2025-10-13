@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    background-color: aqua;
+    height: 200px;
+    /* border:5px dashed yellowgreen; */
+    border-top: 5px solid red;
+    border-bottom: 3x dashhed yellow;
+    /* margin: 80px; */
+    margin: 80ppx 40px 50px 70px; 
+        /*padding */
+    padding: 50px;
+    
+}

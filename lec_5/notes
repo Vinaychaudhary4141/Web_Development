@@ -1,0 +1,44 @@
+BOX MODEL----> it treats every element as a rectangular box.
+properties of box model--
+i) dimension(height & width)
+ii) border
+iii) margin: space between two elements .Short hand property means ek baar margin dene se 4ron side se margin aa jati h , hum ise jis side se dena chahein vo b kr skte hain like margin-top, left etc.
+iv) padding: ek element k andar ki jagah ko padding kehte hain means element k border aur content k beech ka difference
+
+**** ye sb sirf block element k liye use hota h , inline element pr work nhi krta ye(till now).
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+CSS Units.
+1. Absolute Units -- ziddi hota h , screen size k according apne andar koi change nhi laata. 
+2. Relative Units -- parent k respect m change hote hain.
+     |
+     ---> percentage
+     ---> em ki vjh se snowball effect dekhne ko milta h , nesting hoti rehti h , aur uski vjh se child element jo h parent element ki properties ko inherit krte rehte hain.
+     ---> rem: root element(html) pr depend hota h . isme snowballeffect nhi hota q ki ye fix hota h root element k according.
+     ---> vh: view height: view port ki height k according chlega.
+     ---> vw: view width: ---same---.
+
+
+     vw, vh, %, ye hum dimension k liye dete hain like height and width.
+     rem , em ye hum font size k liye dete hain.
+     
+--------------------------------------------------------------------------------------------------------------------------------
+
+DISPLAY_style--> box model to sorf block element pr work krta h, ab hum chahte hain ki hmara element inline element ki trh jitni need h utna space le , but agar hum use inline krdenge to box model wali property work nhi krengi , to uske
+beech ka raasta nikala h i.e display:inline-block.
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+div:nth-of-type(2){
+    /* display: none; */
+    visibility: hidden; 
+}
+/* display none dene se vo element ko jo jagah di gayi thi vo vaapis le li jaayegi and the element will not be seen on the screen(invisible)  */
+/* visibility : hidden wale case m spac(jagah) to occupy krega but blank dikhayi dega(invisible)  */
+
+
+
+
