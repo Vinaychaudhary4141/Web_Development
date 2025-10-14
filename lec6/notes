@@ -1,0 +1,26 @@
+******POSITIONS*****
+5 types ki--
+static , relative, absolute , fixed , sticky
+
+1. static position---> Normal flow ko nhi chhodta i.e jis jagah add hua h uske alawa kahin move nhi krega.
+                       koi b offset kaam nhi krte.
+
+2.relative position---> normal flow se offset leta h.
+
+3. absolute position---> ye normally to overlap kr jaata h .
+                        iske jo offsets hote hain vo position lete hain with respect to the most recent positioned parent.
+
+4. fixed position---> body k respect m khud ko align krega
+                      ye parent pr depend nhi hoti .
+                      normal flow se bahar aa jata h.
+                      application -  navbar of various website like flipkart.
+                      offset dena pdega vrna vo nazar hi nhi aayega.
+
+5. sticky position---> mixture of fixed + relative.
+                       jse hi hit krega dusre element ko to relative ban jaayega. 
+                       offset lega according to the view port/body. 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+******FONT PROPERTIES****

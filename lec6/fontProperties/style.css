@@ -1,0 +1,21 @@
+p:nth-of-type(1){
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 0.5 rem;
+    letter-spacing: 0.2rem;
+    
+}
+/* shadow  */
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 1.2px , 6px, red;
+
+    border: 2px solid black;
+    box-shadow: 1px 1.2px 6px grey;
+}
+/* hum chahein to multiple times shadow de skte hain .
+ 4 parameters dene pdte hain pehle x -axis , y-axis , sharpness of shadow , colour of the shadow*/
+ 
