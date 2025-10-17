@@ -1,0 +1,13 @@
+flexbox ek display property h.
+ye parent pr lgti h na ki child pr.
+2 axis hoti hain : main axis aur cross axis.
+display:flex dene pr jo b hmare div ya element hain vo khud ko main axis k along align krlete hain.
+by default , flex ki direction hoti h row wise/main axis.
+jis direction ko flex direction kehte hain vo hmari main axis hoti h , that's why we can say that main axis is not fixed.
+flex direction ko change kr skte hain.
+         --flex-direction:column
+         
+
+flex-wrap: by default iski value no wrap hoti h means jb b hum apne view port ko chota krenge to hmare box/elements b apna size reduce krte jaayenge but same line m hi  show hote rhenge but hum aisa nhi chahte , 
+hum chahte hain ki view port k size ko decrease krne pr hmara last element next line m aajaye and so on chlta rhe.
+uskse liye hum use krte hain flex-wrap: wrap. 

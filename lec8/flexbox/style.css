@@ -1,0 +1,50 @@
+.parent{
+    width: 70vw;
+    border: 5px solid black;
+    height: 600px;
+    background-color: antiquewhite;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction:column;
+    flex-direction: row-reverse; */
+    /* isme left side se start hoga 1 ..2..3..4..5 , mtlb ulta ho jaayegaa bss just like an mirror. */
+    /* justify-content: center;
+    justify-content: flex-end; */
+    /* right align ho jaayega . means khin se b chaalu ho lekin end right side m hoga */
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+    /* cross-axis start */
+     
+    /* align-items: flex-end;
+    align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+
+/* Align items:PArent property hoti h ye
+    rows ke beech ka space manage krta h */
+    align-content: center;
+    align-content: flex-start;
+    align-content: space-between;
+}    
+div{
+     height: 150px;
+     width: 150px;
+     border: 1px solid black;
+}
+
+/* CHILD PROPERTIES */
+div:nth-of-type(5){
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* shrink means kitne rate se shrink hoga view port ka size kam krne pr */
+}
+/* flex-basis krega ki ek particular element ko extra space dena. */
+/* flex-grow bchi hui space ko kis ratio m assign krna h particular element ko  */
+/*  */
+div:nth-of-type(1){
+    flex-grow: 1;
+    flex-shrink: 4;
+}
