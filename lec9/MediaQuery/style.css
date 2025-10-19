@@ -1,0 +1,41 @@
+section{
+    width: 40%;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+/* @media screen and (max-width:600px) {
+    h2{
+        color: orange;
+        font-size:20px ;
+    }
+}
+@media screen and (max-width:550px) {
+    h2{
+        font-size:  25px;
+        color: blue;
+        text-transform: uppercase;
+    }  
+} */
+/* media query m max wali property dete time maximum query upar di jaati h aur min property dete time choti wali query sbse upar */
+
+
+/* @media all and (orientation:landscape){
+      h2{
+        color: yellow;
+      }
+}
+@media all and (orientation:portrait){
+      h2{
+        color: pink;
+      }
+} */
+
+@media all and (min-width:300px) , (orientation:landscape) {
+      h2{
+        color: yellow;
+      }
+}
