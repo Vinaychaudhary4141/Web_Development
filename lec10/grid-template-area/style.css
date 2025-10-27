@@ -1,0 +1,39 @@
+.container{
+    width:90vw;
+    height: 90vh;
+    background-color: #6495ed;
+    border: 2px solid black;
+     margin: 30px auto;
+     display: grid;
+     grid-template-columns: 1fr 5fr 1fr;
+     grid-template-rows: 1fr 5fr 5fr 1fr;
+    grid-template-areas: "header header header"
+                         " nav1 main nav2"
+                         "nav1 main nav3"
+                         "footer footer footer";
+}
+body{
+    width: 100cw;
+    height: 100vh;
+    background-color: bisque;
+}
+.header{
+    background-color: black;
+    grid-area: header;
+}
+.main{
+   background-color: bisque;
+   grid-area: main;
+}
+.nav1{
+    background-color: antiquewhite;
+    grid-area: nav1;
+}
+.nav2{
+    background-color: #6495ed;
+    grid-area: nav2;
+}
+.nav3{
+  background-color: aqua;
+  grid-area: nav3;
+}
