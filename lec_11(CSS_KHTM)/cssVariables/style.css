@@ -1,0 +1,13 @@
+/* css variable ka use krte hain jb ek hi kaam baar baar karne ho
+variable ko root element m define krte hain jisse har koi use access kr ske 
+*/
+
+
+:root{
+    --bg-color-red: #e41515;
+    --bg-color-yellow: yellow;
+}
+
+article, h2 , h3{
+    background-color: var(--bg-color-yellow);
+} 
