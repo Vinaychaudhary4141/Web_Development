@@ -1,0 +1,12 @@
+javascript ek programming language ya scripting language h..
+??? programming language--- language in which i can build my own logic depending on my own logical ability.
+
+**INTERPRETED:line by line code chlega , jahan error aayega vahan ruk jaayega.
+**COMPILED:poora code chlega uske baad error btayega .
+?? javascript ek INTERPRETED programming language hai.
+
+*** primitive data type: which can not be divide further...7 types
+ String, Number, Boolean , Undefined , Null , Bigint , Symbol.
+
+ ---------------------------------------------------
+  ??CONSOLE: REPL(Read Evaluate Print Loop)
